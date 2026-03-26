@@ -121,7 +121,7 @@ export default function BottomNav() {
                   hover:text-[var(--second)]'
                   >
                     {link.label}
-                    <image
+                    <Image
                       src='/Menu-dot.svg'
                       alt='icone do menu'
                       width={10}
@@ -131,25 +131,35 @@ export default function BottomNav() {
               )
             )}
 
-            {/*Redes Sociais*/}
-            <div className='mt-4 flex items-center gap-4 px-2 text-2x1 tex-[var(--black)]'>
-              <Link href='/' arial-label='instagram'>
-              <i className='bi bi-instagram transition-colors hover:text-[var(--second)]'
-              ></i>
-                </Link>
-
-                <Link href='/' arial-label='Facebook'>
-              <i className='bi bi-facebook transition-colors hover:text-[var(--second)]'
-              ></i>
-                </Link>
-
-                <Link href='/' arial-label='WhatsApp'>
-              <i className='bi bi-whatsapp transition-colors hover:text-[var(--second)]'
-              ></i>
-                </Link>
-            </div>
+           
 
           </nav>
+        </div>
+
+        {/*Direita desktop */}
+        <div className='hidden items-center gap-6 lg:flex'>
+          <Link
+            href='/'
+            className='font-golos border-b border-gray-400 font-semibold
+            text-[var(--black)] trasition-colors hover:border-[var(--second)]
+            hover:text-[var(--second)]  '
+            >
+              
+                 Login / Cadastro
+            </Link>
+            
+
+            <Link 
+              href='/'
+              className='relative text-3x1 text-[var(--black)] transition-colors hover:text-[var(--second)]'
+              arial-label='Carrinho'
+            >
+              <i className='bi bi-cart3'></i>
+              <span className='absolute  -right-2 -top-2 flex h-5 w-5
+               items-center justify-center rounded-full bg-black text-xs text-white'>
+                  2  
+               </span>
+            </Link>
         </div>
       </div>
     </div>
