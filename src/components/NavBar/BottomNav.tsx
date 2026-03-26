@@ -13,7 +13,7 @@ type NavLink = {
 const navLinks: NavLink[] = [
   { label: 'Home', href: '/' },
   { label: 'Loja', href: '/' },
-  { label: 'Blog', href: '/' },
+  { label: 'Produtos', href: '/' },
   {
     label: 'Comidas',
     href: '/',
@@ -94,9 +94,61 @@ export default function BottomNav() {
                       height={10}
                     />
                   </Link>
+
+                <div className='absolute left-0 top-full hidden
+                min-w[180px] rounded-lg  border grav-100 bg-white p-2 shadow-x1 group-hover:block'>
+                  {link.dropdown.map((item) => (
+                    <Link
+                      key={item.label}
+                      href={item.href}
+                      className='font-golos block rounded-md
+                      px-4 py-2 text-[var(black)]
+                      trasition-colors hover:bg-var
+                  (--prim-light)] hover:text-var(--second)]'>
+                      {item.label}
+                  </Link>
+
+                  ))}
                 </div>
-              ) : null
+
+                </div>
+              ) : (
+                <Link
+                  key={link.label}
+                  href={link.href}
+                  className='font-golos flex items-center gap-1
+                  font-bold text-var(--black) transition-colors
+                  hover:text-[var(--second)]'
+                  >
+                    {link.label}
+                    <image
+                      src='/Menu-dot.svg'
+                      alt='icone do menu'
+                      width={10}
+                      height={10}
+                    />
+                  </Link>
+              )
             )}
+
+            {/*Redes Sociais*/}
+            <div className='mt-4 flex items-center gap-4 px-2 text-2x1 tex-[var(--black)]'>
+              <Link href='/' arial-label='instagram'>
+              <i className='bi bi-instagram transition-colors hover:text-[var(--second)]'
+              ></i>
+                </Link>
+
+                <Link href='/' arial-label='Facebook'>
+              <i className='bi bi-facebook transition-colors hover:text-[var(--second)]'
+              ></i>
+                </Link>
+
+                <Link href='/' arial-label='WhatsApp'>
+              <i className='bi bi-whatsapp transition-colors hover:text-[var(--second)]'
+              ></i>
+                </Link>
+            </div>
+
           </nav>
         </div>
       </div>
