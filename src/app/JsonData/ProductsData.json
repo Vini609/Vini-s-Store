@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "title": "Casaco de pele sintética",
+    "image": "/imgProdutos/product-1.webp",
+    "price": "R$580",
+    "off": "Ganhe 20% de desconto",
+    "cate": "Casacos"
+  },
+  {
+    "id": 2,
+    "title": "Blusa de lã",
+    "image": "/imgProdutos/product-2.webp",
+    "price": "R$294",
+    "off": "Ganhe 20% de desconto",
+    "cate": "Casacos"
+  },
+  {
+    "id": 3,
+    "title": "Vestido florido de verão",
+    "image": "/imgProdutos/product-3.webp",
+    "price": "R$365",
+    "off": "Ganhe 20% de desconto",
+    "cate": "Vestidos"
+  },
+  {
+    "id": 4,
+    "title": "Camisa de manga longa feminina",
+    "image": "/imgProdutos/product-4.webp",
+    "price": "R$175",
+    "off": "Ganhe 20% de desconto",
+    "cate": "Casacos"
+  },
+  {
+    "id": 5,
+    "title": "Blazer feminino",
+    "image": "/imgProdutos/product-5.webp",
+    "price": "R$470",
+    "off": "Ganhe 20% de desconto",
+    "cate": "Casacos"
+  },
+  {
+    "id": 6,
+    "title": "Blazer feminino",
+    "image": "/imgProdutos/product-6.webp",
+    "price": "R$368",
+    "off": "Ganhe 20% de desconto",
+    "cate": "Casacos"
+  },
+  {
+    "id": 7,
+    "title": "Terno masculino fola fina",
+    "image": "/imgProdutos/product-7.webp",
+    "price": "R$479",
+    "off": "Ganhe 20% de desconto",
+    "cate": "Casacos"
+  },
+  {
+    "id": 8,
+    "title": "Conjunto blazer e calça feminina",
+    "image": "/imgProdutos/product-8.webp",
+    "price": "R$697",
+    "off": "Ganhe 20% de desconto",
+    "cate": "Casacos"
+  },
+  {
+    "id": 9,
+    "title": "Blazer xadrez masculino",
+    "image": "/imgProdutos/product-9.webp",
+    "price": "R$384",
+    "off": "Ganhe 20% de desconto",
+    "cate": "Casacos"
+  },
+  {
+    "id": 10,
+    "title": "Kimono feminino",
+    "image": "/imgProdutos/product-10.webp",
+    "price": "R$180",
+    "off": "Ganhe 20% de desconto",
+    "cate": "Casacos"
+  },
+  {
+    "id": 11,
+    "title": "Casaco de pele sintética",
+    "image": "/imgProdutos/product-11.webp",
+    "price": "R$375",
+    "off": "Ganhe 20% de desconto",
+    "cate": "Casacos"
+  },
+  {
+    "id": 12,
+    "title": "Casaco de pele sintética",
+    "image": "/imgProdutos/product-12.webp",
+    "price": "R$594",
+    "off": "Ganhe 20% de desconto",
+    "cate": "Casacos"
+  }
+]

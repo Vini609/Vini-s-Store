@@ -1,3 +1,10 @@
+import Index from "./UI-Components/index";
+
+
 export default function Home() {
-  return <div></div>;
+  return (
+    <div>
+      <Index />
+    </div>
+  )
 }
